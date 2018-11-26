@@ -1,0 +1,19 @@
+
+Name: Tushar Chawla
+
+1A)
+For my evaluation function, I have added the Updatedscore function in the OthelloState class itself.
+
+Properties of the function:
+
+Since, we know that in the othello game its good to have control the corners of the board. We let the score function calculate the regular score, and then if the game is not yet over, we add some extra points for the player if it controls the corners so that we could weigh the state more towards trying to control the corners but not messing up the final score of the game.	
+
+1B) Refer to class MonteCarloTushar
+
+
+Extra Credit 
+
+The class MoteCarloTusharTime takes time in milliseconds as its input to run the algorithm. In order to run this you would have to make changes in the HW5 file.
+
+Thank you,
+Tushar Chawla

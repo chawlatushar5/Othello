@@ -1,0 +1,29 @@
+
+Name: Tushar Chawla
+
+Extra Credit 
+
+Part1)
+
+OthelloMinMaxTushar: 
+
+1) 0-2
+2) 0-4
+3) 0-5
+5) <233
+
+
+
+OthelloAlphaBetaTushar:
+
+1) 0-1
+2) 0-3 (Just one 4)
+3) 0-5
+5) <75
+
+As we can see, the time taken for minimax keeps increasing really fast with increasing levels, whereas the time taken by AlphaBeta was exceptionally less. Also, we can observe that the difference in the time keeps increasing with increasing length.
+
+Part2)
+
+The OthelloTournamentTushar class takes int in its constructor for time in milliseconds to return the move in the given milliseconds.
+
